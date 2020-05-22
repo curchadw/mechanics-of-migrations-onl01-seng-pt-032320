@@ -1,5 +1,5 @@
 # db/migrate/01_create_artists.rb
- 
+
 class CreateArtists < ActiveRecord::Migration[5.2]
     def change
       create_table :artists do |t|
@@ -8,8 +8,8 @@ class CreateArtists < ActiveRecord::Migration[5.2]
         t.integer :age
         t.string :hometown
       end
-      
+
     end
-   
-    
+
+
   end
